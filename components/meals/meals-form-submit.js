@@ -7,7 +7,7 @@ export default function MealsFormSubmit() {
 
     return (
         <button disabled={pending}> 
-            {pending ? 'Submitting... ' c:\Users\hkm\Downloads\01-starting-project: 'Share Meal'}
+            {pending ? 'Submitting... ' : 'Share Meal'}
         </button>
     );
 }
